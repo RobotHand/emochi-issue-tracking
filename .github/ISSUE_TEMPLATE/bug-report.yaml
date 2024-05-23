@@ -1,0 +1,55 @@
+name: Bug Report
+description: File a bug report.
+labels: ["bug"]
+body:
+  - type: textarea
+    id: what-happened
+    attributes:
+      label: What happened?
+      description: Also, what did you expect to happen?
+      placeholder: Describe the bug in as much detail as possible.
+    validations:
+      required: true
+  - type: textarea
+    id: steps-to-reproduce
+    attributes:
+      label: Steps to reproduce
+      description: Please provide detailed steps describing how I can reproduce the issue.
+      placeholder: |
+        example:
+
+        1. Open the app.
+        2. Navigate to Settings > Keywords.
+        3. Remove a keyword from 🥳 :partying-face:
+        4. Observe that the keyword is still present.
+    validations:
+      required: true
+  - type: textarea
+    id: media
+    attributes:
+      label: Screenshots or videos
+      description: If applicable, attach screenshots or videos that help explain the issue.
+      placeholder: Click this field, then drag and drop files here.
+  - type: input
+    id: version
+    attributes:
+      label: Version
+      description: Click the emochi icon in the Mac menu bar, then click "About" to find the version number.
+    validations:
+      required: true
+  - type: input
+    id: macos-version
+    attributes:
+      label: macOS Version
+      description: Click the Apple icon in the top-left corner of your screen, then click "About This Mac" to find the macOS version number.
+    validations:
+      required: true
+  - type: textarea
+    id: misc 
+    attributes:
+      label: Additional Information
+      description: e.g. is it reproducible every time? Add any other details that might help diagnose the issue.
+  - type: markdown
+    attributes:
+      value: |
+        Thank you for your report! 🙏
