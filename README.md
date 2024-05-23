@@ -11,6 +11,6 @@
 - Check the existing issues to see if your issue has already been reported. If it already exists, you may wish to vote for the issue by giving it a thumbs-up 👍 
 - Otherwise, click "New issue"
 - If you don't already have one, you'll need to create a GitHub account, but it's fast and free!
-- Fill out the template and I'll be notified. Thanks for your suggestions!
+- Fill out the template and I'll be notified.
 
 Thanks for stopping by! 
