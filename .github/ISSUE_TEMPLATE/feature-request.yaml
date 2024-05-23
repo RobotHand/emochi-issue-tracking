@@ -1,6 +1,7 @@
 name: Feature Request
 description: Suggest a new feature or enhancement, e.g. "Add emojis introduced in macOS XYZ"
 labels: ["feature-request"]
+projects: ["RobotHand/1"]
 body:
   - type: textarea
     id: feature-description
