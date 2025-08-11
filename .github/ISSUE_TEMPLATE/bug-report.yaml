@@ -2,7 +2,25 @@ name: Bug Report
 description: File a bug report.
 labels: ["bug"]
 projects: ["RobotHand/1"]
+
 body:
+  - type: markdown
+    attributes:
+      value: |
+        > [!IMPORTANT]
+        > **This repo is for Emochi, the macOS menu bar emoji picker.**
+        >
+        > If you're reporting an issue with Emochi (AI chat/roleplay app on iOS/Android),
+        > please find their support center for help.
+
+  - type: checkboxes
+    id: right-app
+    attributes:
+      label: Confirm app
+      options:
+        - label: I’m using **Emochi for macOS** (menu bar emoji picker), not the iOS/Android AI chat app named “Emochi.”.
+          required: true
+
   - type: textarea
     id: what-happened
     attributes:
@@ -11,6 +29,7 @@ body:
       placeholder: Describe the bug in as much detail as possible.
     validations:
       required: true
+
   - type: textarea
     id: steps-to-reproduce
     attributes:
@@ -25,12 +44,14 @@ body:
         4. Observe that the keyword is still present.
     validations:
       required: true
+
   - type: textarea
     id: media
     attributes:
       label: Screenshots or videos
       description: If applicable, attach screenshots or videos that help explain the issue.
       placeholder: Click this field, then drag and drop files here.
+
   - type: input
     id: version
     attributes:
@@ -38,6 +59,7 @@ body:
       description: Click the emochi icon in the Mac menu bar, then click "About" to find the version number.
     validations:
       required: true
+
   - type: input
     id: macos-version
     attributes:
@@ -45,11 +67,13 @@ body:
       description: Click the Apple icon in the top-left corner of your screen, then click "About This Mac" to find the macOS version number.
     validations:
       required: true
+
   - type: textarea
     id: misc 
     attributes:
       label: Additional Information
       description: e.g. is it reproducible every time? Add any other details that might help diagnose the issue.
+
   - type: markdown
     attributes:
       value: |
