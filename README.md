@@ -1,6 +1,9 @@
 <p align="center">
-  <img src="https://robothand.dev/img/emochi-icon.png" width=200 />
+  <img src="appIcon.png" width=200 />
 </p>
+
+> [!IMPORTANT]
+> This is not Emochi AI! Please do not report bugs related to Emochi AI in this repo.
 
 # [emochi](https://apps.apple.com/us/app/emochi-lighting-fast-emojis/id6450970369?mt=12) Bugs and Feature Requests
 
